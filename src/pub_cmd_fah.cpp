@@ -13,6 +13,7 @@ public:
       std::chrono::seconds(1), std::bind(&FahrenheitPublisher::publish_temperature, this));
   }
 
+
 private:
   void publish_temperature()
   {
